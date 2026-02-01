@@ -115,9 +115,9 @@ class DDOSSystem:
         self.show_banner()
         
         menu = f"""
-{Fore.CYAN}{'═'*55}
-{Fore.YELLOW}    ⚡ SELECT DDOS ATTACK METHOD
-{Fore.CYAN}{'═'*55}{Style.RESET_ALL}
+print(f"{Fore.CYAN}{'═'*55}")
+print(f"{Fore.YELLOW}    ⚡ SELECT ATTACK METHOD")
+print(f"{Fore.CYAN}{'═'*55}{Style.RESET_ALL}")
 
 {Fore.MAGENTA}[1]{Fore.WHITE} DDOS Attack - Request Spammer
     {Fore.CYAN}→{Fore.WHITE} Spam requests continuously to target
